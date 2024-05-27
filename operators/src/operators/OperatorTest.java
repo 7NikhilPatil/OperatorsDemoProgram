@@ -98,6 +98,26 @@ public class OperatorTest {
      	res = (p > q) ? p : q;
      	System.out.println("Result= " + res);
      	System.out.println();  	
+
+		// Unary Operators
+		System.out.println("-----Unary Operators-----");
+     	
+		int t = 10;
+		
+		System.out.println(t++);
+		System.out.println(t);
+		System.out.println(++t);
+		System.out.println(t);
+		
+		int s = 20;
+		
+		System.out.println(s--);
+		System.out.println(s);
+		System.out.println(--s);
+		System.out.println(s);
+		
+		int des = ++t + s--;
+		System.out.println(des);
      	
 	}
 
